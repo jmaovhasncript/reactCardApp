@@ -12,8 +12,6 @@ class App extends React.Component{
         
     }
     render (){  
-       
-
         return(
             <div>
              <Container>
@@ -23,7 +21,7 @@ class App extends React.Component{
                 )
                 } 
                 <Footer/>
-             </Container>
+              </Container>
             
             </div>
         );
