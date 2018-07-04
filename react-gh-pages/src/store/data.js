@@ -35,6 +35,6 @@ const cards = [{
 },
 ]
 
-console.log(cards);
+// console.log(cards);
 
-export default cards;
+// export default cards;
