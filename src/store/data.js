@@ -1,4 +1,5 @@
-const cards = [{
+{
+  cards :  [{
     id : "card1",
     imageUrl : "https://fiu-assets-2-syitaetz61hl2sa.stackpathdns.com/static/use-media-items/50/49197/full-2700x3910/58b6d005/Moonlight_poster.jpeg?resolution=0",
     title : "Moon Light",
@@ -39,7 +40,4 @@ const cards = [{
     profileImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS19orrq9hg704mMjFFexVV6msmzupgCWEslLxJx5q_Ydm_cS3ufQ"
 },
 ]
-
-console.log(cards);
-
-export default cards;
+}
