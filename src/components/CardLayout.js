@@ -27,7 +27,6 @@ const CardLayout = (props)=>{
         </CardBody>
       </Card>
       </Row>
-     
     );
 }
 
