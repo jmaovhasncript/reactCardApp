@@ -5,7 +5,7 @@ import { Card, CardImg, CardText, CardBody,
 import SocialIconContainer from './SocialIconContainer';
 import ProfileImage from './ProfileImage';
 import '../css/index.css' ;
-  
+
 
 const CardLayout = (props)=>{
     const item = props.cards;
