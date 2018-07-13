@@ -1,0 +1,124 @@
+#items {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+.item {
+  padding: 30px;
+  font-size: 60px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+.body{
+    background-color: black;
+}
+.container{
+    max-width: 600px;
+}
+
+.Header{
+        width: 100%;
+}
+ @media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .card {
+        max-width: 500px;
+        margin: 0 auto;
+        display: inline-block;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+    .card {
+        max-width: 500px;
+        margin: 0 auto;
+        display: inline-block;
+        margin-bottom: 5%;
+    }
+}
+
+.socialIcon{
+    position: absolute;
+    margin-left: 20px;
+}
+
+.Header{
+    background-image:linear-gradient(180deg,#222 0,rgba(34,34,34,.85));
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+}
+
+.Footer{
+  background-image:linear-gradient(180deg,#222 0,rgba(34,34,34,.85));
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.profileImage{
+    width: 100px;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+}
+
+.card-title{
+    font-size:20px;
+}
+
+.card-subtitle{
+    font-size:10px;
+}
+.card-text{
+    margin-top: 10px;
+}
+.socialIcon{
+    margin-right: 10px;
+}
+
+.nav-item{
+    margin: 10px 20px 10px 20px;
+}
+
+
+
+
+.textAlign{
+  text-align: center;
+}
+
+.cardContainer{
+  top:100px;
+  position: relative
+}
+
+.buttonContainer{
+  bottom: 46px;
+  position: relative;
+}
+
+
+
