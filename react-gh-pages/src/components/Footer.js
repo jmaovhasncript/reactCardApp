@@ -1,17 +1,18 @@
 import React from 'react';
 import { Nav, NavItem, NavLink } from 'reactstrap';
-const Footer =(props)=>{
+import { Link } from "react-router-dom";
+const Footer =(props)=>{``
     return(
         <div className="Header">
             <Nav>
                 <NavItem>
-                    <NavLink href="#">Terms and Privacy Notice</NavLink>
+                    <Link to="/Privacy">Terms and Privacy Notice</Link>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="#">Send us feedback</NavLink>
+                    <Link to="/feedback">Terms and Privacy Notice</Link>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="#">Help</NavLink>
+                <Link to="/Help">Help</Link>
                 </NavItem>
                 </Nav>
         </div>
